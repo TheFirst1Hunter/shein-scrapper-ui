@@ -14,7 +14,7 @@
     try {
       res = null
        isLoading = true
-      res =await axios.post("https://shein-scrapper.onrender.com/url",{url})
+      res =await axios.post("https://localhost:3000/url",{url})
      
       isLoading = false
 
